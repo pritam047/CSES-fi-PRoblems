@@ -31,7 +31,9 @@ static int countDistinct(int arr[], int n)
 		{
 			arr[i]=sc.nextInt();
 		}
-		System.out.println(countDistinct(arr, n)); 
+		int s=countDistinct(arr,n)
+System.out.print(s);
+
 	} 
 } 
 
