@@ -9,7 +9,7 @@ public class Main
 	    long sumn = 0L;
 	    for(long i=0 ;i<n-1;i++){
 	        a[i]=sc.nextLong();
-	        sumn+=nn;
+	        sumn=sumn+a[i];
 	    }
 	    
 		System.out.print(sum-sumn);
