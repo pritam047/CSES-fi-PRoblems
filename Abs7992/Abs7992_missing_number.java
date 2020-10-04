@@ -5,9 +5,10 @@ public class Main
 	    Scanner sc= new Scanner(System.in);
 	    long n = sc.nextLong();
 	    long sum = n*(n+1)/2;
+            long a[]=new long [n];
 	    long sumn = 0L;
 	    for(long i=0 ;i<n-1;i++){
-	        Long nn=sc.nextLong();
+	        a[i]=sc.nextLong();
 	        sumn+=nn;
 	    }
 	    
