@@ -29,5 +29,6 @@ public class Increasing_array {
         {
             arr[i]=sc.nextInt();
         } 
+       int s=minRemove();
 } 
 }
